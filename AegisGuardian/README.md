@@ -1,10 +1,10 @@
-# 🛡️ Aegis Guardian
+# Aegis Guardian
 
 **Aegis Guardian** is an advanced, terminal-based Document Security and Management Operating System built entirely in C++. Designed as a secure vault simulation, it features Role-Based Access Control (RBAC), self-healing file integrity algorithms, and a sleek ANSI-colored Command Line Interface.
 
 ---
 
-## ✨ Core Features
+## Core Features
 
 * **Role-Based Access Control (RBAC):** Strict separation of privileges. `STAFF` members can explore and read documents, while `ADMIN` accounts possess the authority to create, modify, delete, and restore system states.
 * **Self-Healing Vault Integrity:** Every document created in the Vault is secretly mirrored. The Deep Scan Integrity feature checks byte-sizes to detect tampering, unauthorized modifications, or breaches.
@@ -16,7 +16,7 @@
 
 ---
 
-## 🏛️ System Architecture (UML)
+## System Architecture (UML)
 
 The system relies on a modular, object-oriented architecture. Below is the UML Class Diagram illustrating the structure and relationships of the core entities.
 
@@ -76,7 +76,7 @@ classDiagram
 
 ---
 
-## 🛠️ OOP Concepts Applied
+## OOP Concepts Applied
 
 This project heavily implements the four core pillars of Object-Oriented Programming to ensure a secure, scalable, and memory-efficient codebase:
 
@@ -98,7 +98,7 @@ Complex, low-level background operations are entirely hidden from the user inter
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 * **Language:** C++ (Requires C++17 or higher)
 * **File Operations:** `<filesystem>`, `<fstream>`
 * **UI/UX:** Native ANSI escape sequences for terminal colorization and formatting.
@@ -106,13 +106,13 @@ Complex, low-level background operations are entirely hidden from the user inter
 
 ---
 
-## 🚀 Installation & Compilation
+## Installation & Compilation
 
 Ensure you have a C++ compiler (like GCC/MinGW) installed that supports at least C++17.
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/abdulrafayau/AegisGuardian.git
+git clone https://github.com/Hadia-Aziz99/Aegis-Guardian.git
 cd AegisGuardian
 ```
 
@@ -128,7 +128,7 @@ g++ main.cpp -o Aegis.exe -std=c++17
 
 ---
 
-## 🔑 Default Credentials
+## Default Credentials
 
 On the very first launch, Aegis automatically generates a secure master administrative account (or you can use the built-in defaults):
 
@@ -143,7 +143,7 @@ On the very first launch, Aegis automatically generates a secure master administ
 ---
 
 ## 👥 Group Members
-* **Abdul Rafay**
 * **Hadia Aziz**
+* **Abdul Rafay**
 * **Huda Tariq**
 * **Faizan Iqbal**
